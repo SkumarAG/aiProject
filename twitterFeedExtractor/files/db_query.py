@@ -68,6 +68,3 @@ def saveTweets(twitter_id,numbr_of_tweets):
         print"Tweets Saved"
     else:
     	print"No relevant tweeter feed"
-
-if __name__ == "__main__":
-	print ""
