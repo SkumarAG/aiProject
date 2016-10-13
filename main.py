@@ -1,8 +1,9 @@
 # Main program to run different part of algorithm
 
-#Importing text vector form 
+#Importing textToVector from bagofwords folder
 from bagofwords.textToVector import bagofWords
 
+#Importing process_tweets function from preProcessing folder
 from preProcessing.tweet_cleanser import process_tweets
 
 test_sentence = ["John likes to watch movies. Mary likes movies too.","John also likes to watch football games."]
