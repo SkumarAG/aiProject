@@ -2,12 +2,18 @@
 
 class Configurations:
 	#db configuration
-	userName = 'root'#user name for database
-	password = 'rmtdl0680036'
+	
+	# Credential for database
+	userName = 'root'
+	password = 'rXXXXXXXXX6'
+	# IP address for the database, In our case it's hosted locally
 	hostIP ='127.0.0.1'
+	# Name of database
 	databaseName = 'twitterdata'
+	# To show warnings,when error occurs - like duplicate key, null value
 	raise_on_warnings = True
-
+	
+	# Python Dictionary
 	dbconfig = {
 		'user': userName,
 		'password': password,
