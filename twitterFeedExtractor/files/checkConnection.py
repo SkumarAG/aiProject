@@ -1,4 +1,4 @@
-# Program just to check whether internet in working or not
+# Program just to check whether internet is in working condition or not
 # Credit - miraculii
 
 import socket
