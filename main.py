@@ -1,3 +1,6 @@
+# Main program to run different part of algorithm
+
+#Importing text vector form 
 from bagofwords.textToVector import bagofWords
 
 from preProcessing.tweet_cleanser import process_tweets
