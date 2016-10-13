@@ -6,17 +6,17 @@ import tweepy
 tweet_id = 0
 # DB Configuration
 config = {
-  'user': 'root',
-  'password': 'rmtdl0680036',
+  'user': 'rXXXXt',
+  'password': 'rXXXXXXXXX6',
   'host': '127.0.0.1',
   'database': 'twitterdata',
   'raise_on_warnings': True,
 }
 
-consumer_key = "Hol90i780joDoqDzWS32tR2cn"
-consumer_secret = "wIPsoeGyHbqfmHNcCdATs8GOlPOx9HeU5OlekcGm6D2TtHyUPk"
-access_token = "249152008-zYoxFHAVeDzlWNasuaqxOXBOZpihHCYxi0frmChO"
-access_token_secret = "qBTozbbXA10mdI57sEhOoiYrIE18E2GHg8qCwKnkjNZYl"
+consumer_key = "HXXXXXXXXXXXXn"
+consumer_secret = "wXXXXXXXXXXXXXXXXXXk"
+access_token = "2XXXXXXXXXXXXXXXXXXXXXXXXXXXO"
+access_token_secret = "qXXXXXXXXXXXXXXXXXXXXXl"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
