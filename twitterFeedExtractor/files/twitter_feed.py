@@ -2,7 +2,7 @@ import tweepy
 from checkConnection import is_connected
 import re
 
-# Below function will hit the twitter api and retune all the tweet
+# Below function will hit the twitter api and return all the tweet
 def twitterData(consumer_key,consumer_secret,access_token,access_token_secret,twitter_id,numbr_of_tweets,since_id):
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
@@ -24,13 +24,13 @@ def twitterData(consumer_key,consumer_secret,access_token,access_token_secret,tw
 		print "Check yout internet connection"
 
 def tweetData(tweet):
-	#this function is for extracting the tweet data like tweet text, id from a object
-	#this return a tuple a according to the query
+	#This function is for extracting the tweet data like tweet text, id from a object
+	#This will return a tuple a according to the query
 
-	#in future release i will update the database to save  emoji also
+	#In future release I will update the database to save  emoji also
 
 	######################## for Emoticon removal from tweet.text##################
-	#to remove unicode emoji, so 1366: Incorrect
+	#To remove unicode emoji, so 1366: Incorrect
 	# string value: '\xF0\x9F\x9A\x97' for column 'tweet_text' at row 1 error can be avoided
 
     try:
@@ -65,10 +65,10 @@ def tweetData(tweet):
                      language,location,screen_name,followers_count,friends_count,time_zone)
 
 if __name__ == "__main__":
-	consumer_key = "Hol90i780joDoqDzWS32tR2cn"
-	consumer_secret = "wIPsoeGyHbqfmHNcCdATs8GOlPOx9HeU5OlekcGm6D2TtHyUPk"
-	access_token = "249152008-zYoxFHAVeDzlWNasuaqxOXBOZpihHCYxi0frmChO"
-	access_token_secret = "qBTozbbXA10mdI57sEhOoiYrIE18E2GHg8qCwKnkjNZYl"
+	consumer_key = "HXXXXXXXXXXXXXXXXXXXXXn"
+	consumer_secret = "wXXXXXXXXXXXXXXXXXXXXXXXXk"
+	access_token = "2XXXXXXXXXXXXXXXXXXXXXO"
+	access_token_secret = "qXXXXXXXXXXXXXXXXXXXl"
 	twitter_id = "@TrafflineDEL"
-	numbr_of_tweets = 100
+	numbr_of_tweets = 200
 	twitter_data(consumer_key,consumer_secret,access_token,access_token_secret,twitter_id,numbr_of_tweets)
