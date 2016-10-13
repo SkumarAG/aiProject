@@ -1,3 +1,4 @@
+#Twitter Handles used to create the Twitter Database
 from files.db_query import saveTweets
 twitter_account = ["@SarahJindra",
 "@wazetrafficchi",
@@ -27,7 +28,7 @@ twitter_account = ["@SarahJindra",
 "@NYCityAlerts",
 "@TotalTrafficNYC",
 ]
-numbr_of_tweets = 2000
+numbr_of_tweets = 200
 for twitter_id in twitter_account:
     print "\n"
     print "Saving Data for",twitter_id
