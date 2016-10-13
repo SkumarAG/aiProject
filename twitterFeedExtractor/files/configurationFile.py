@@ -1,4 +1,4 @@
-# This file will contain all database configuration, also the key for twitter api
+# This file will contain all database configuration, also the key for Twitter API
 
 class Configurations:
 	#db configuration
@@ -21,10 +21,10 @@ class Configurations:
 
 
 	#twitter api configuration
-	consumer_key = "Hol90i780joDoqDzWS32tR2cn"
-	consumer_secret = "wIPsoeGyHbqfmHNcCdATs8GOlPOx9HeU5OlekcGm6D2TtHyUPk"
-	access_token = "249152008-zYoxFHAVeDzlWNasuaqxOXBOZpihHCYxi0frmChO"
-	access_token_secret = "qBTozbbXA10mdI57sEhOoiYrIE18E2GHg8qCwKnkjNZYl"
+	consumer_key = "HXXXXXXXXXXXn"
+	consumer_secret = "wXXXXXXXXXXXXXXXXXXXXXXk"
+	access_token = "2XXXXXXXXXXXXXXXXXXO"
+	access_token_secret = "qXXXXXXXXXXXXXXXXXXXXXXXXXl"
 	twitter_config = consumer_key,consumer_secret,access_token,access_token_secret
 
 	def twitterApiConfig(self):
