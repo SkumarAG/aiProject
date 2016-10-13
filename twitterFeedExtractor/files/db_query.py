@@ -1,11 +1,11 @@
 # Queries for data insertion in classifiedTweet, processedTweet, tweets
 # heavy traffic at newyork street
 
-# Query for inserting data to tweets table
+# Query for inserting data to the tweets table
 from mysql.connector import connect, Error
 from configurationFile import Configurations
 from twitter_feed import twitterData,tweetData
-# DB Configuration
+# Database Configuration
 config = Configurations()
 #Twitter Config
 
