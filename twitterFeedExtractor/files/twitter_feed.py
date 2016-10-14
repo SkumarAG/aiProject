@@ -1,3 +1,4 @@
+# Program to get data from twitter 
 import tweepy
 from checkConnection import is_connected
 import re
@@ -32,6 +33,7 @@ def tweetData(tweet):
 	######################## for Emoticon removal from tweet.text##################
 	#To remove unicode emoji, so 1366: Incorrect
 	# string value: '\xF0\x9F\x9A\x97' for column 'tweet_text' at row 1 error can be avoided
+	# To genrate unicode - http://qaz.wtf/u/convert.cgi?text=This+is+pretty+fun+too.+Do+something+for+your+group+tag
 
     try:
         # Wide UCS-4 build
