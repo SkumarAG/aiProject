@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 13 07:54:30 2015
-
-@author: Ramanuja
-"""
-
 ##   Tweet Reprocessing - To remove wide space and repetation,special character
 
 ##   This function is used for location extraction purpose, but not for 
@@ -31,4 +24,3 @@ def process_tweets(tweet):
     tweet = tweet.strip('\'"')
     
     return tweet
-#end Tweet_cleanser
