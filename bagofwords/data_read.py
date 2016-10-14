@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 18 15:51:17 2016
-
-@author: Ramanuja
-"""
-
 from pandas import read_csv
 from collections import OrderedDict
 import re,itertools
