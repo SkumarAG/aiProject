@@ -1,8 +1,5 @@
 ##   Tweet Reprocessing - To remove wide space and repetation,special character
 
-##   This function is used for location extraction purpose, but not for 
-##   clasification
-
 import re
 
 def process_tweets(tweet):
