@@ -1,8 +1,7 @@
-def grad_desc(theta_values, X, y, lr=.001, converge_change=.001):
+# this is incomplete --
+def grad_desc(theta_values, converge=.001 ,X, y, lr=.001):
     #normalize
-    X = (X - np.mean(X, axis=0)) / np.std(X, axis=0)
-    #setup cost iter
-    cost_iter = []
+    
     cost = cost_func(theta_values, X, y)
     cost_iter.append([0, cost])
     change_cost = 1
